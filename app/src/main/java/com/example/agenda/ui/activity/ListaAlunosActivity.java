@@ -28,13 +28,8 @@ public class ListaAlunosActivity extends AppCompatActivity {
         setTitle("Lista de alunos");
 
         FloatingActionButton botaoNovoAluno = findViewById(R.id.activity_lista_alunos_fab_novo_aluno);
-        botaoNovoAluno.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(ListaAlunosActivity.this,
-                        FormularioAlunoActivity.class));
-            }
-        });
+        botaoNovoAluno.setOnClickListener(v -> startActivity(new Intent(ListaAlunosActivity.this,
+                FormularioAlunoActivity.class)));
 
     }
 
