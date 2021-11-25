@@ -22,7 +22,7 @@
         android:clickable="true"
         android:focusable="true"
         android:src="@drawable/ic_action_novo_aluno"
-        app:backgroundTint="#F40505"
+        app:backgroundTint="#673AB7"
         app:rippleColor="#FFFFFF"
         app:srcCompat="@android:drawable/ic_input_add" />
 
